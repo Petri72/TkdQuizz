@@ -108,7 +108,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Quiz programmed in React by Petri</h2>
+          <h2>ITF TKD Quiz programmerad i React av Petri</h2>
+          <h3>Beta version</h3>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

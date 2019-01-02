@@ -18,12 +18,20 @@
 }
 
 .answerOptions {
-  background-color: rgb(52, 2, 252, 0.2);
+  /*background-color: rgb(52, 2, 252, 0.2);*/
 }
 .answerOption {
   list-style-type: none;
   text-align: left;
-  width: 100%;
+  width: auto;
+  height: 40px;
   margin: 3px;
   margin-bottom: 1em;
+  padding: 15px;
+}
+li:nth-child(odd){
+  background: #ccc;
+}
+li:nth-child(even){
+  background: #fff;
 }
