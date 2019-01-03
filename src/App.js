@@ -43,9 +43,16 @@ class App extends Component {
       answersCount: updatedAnswersCount,
       answer: answer
     });
+    console.log(answer);
+    if(answer==="Correct"){
+      document.body.style='background: green;'
+    }else if(answer==="Wrong"){
+      document.body.style='background: red;'
+    }
   }
 
   setNextQuestion() {
+    document.body.style='background: white;';
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
     this.setState({
@@ -60,9 +67,9 @@ class App extends Component {
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
     if (this.state.questionId < quizQuestions.length) {
-        setTimeout(() => this.setNextQuestion(), 300);
+        setTimeout(() => this.setNextQuestion(), 2000);
       } else {
-        setTimeout(() => this.setResults(this.getResults()), 300);
+        setTimeout(() => this.setResults(this.getResults()), 2000);
       }
   }
 

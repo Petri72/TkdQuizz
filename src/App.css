@@ -19,12 +19,13 @@
 
 .answerOptions {
   /*background-color: rgb(52, 2, 252, 0.2);*/
+  margin-right: 30px;
 }
 .answerOption {
   list-style-type: none;
   text-align: left;
   width: auto;
-  height: 40px;
+  height: auto;
   margin: 3px;
   margin-bottom: 1em;
   padding: 15px;
