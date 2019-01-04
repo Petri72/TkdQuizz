@@ -255,7 +255,7 @@ var quizQuestions = [
         ]
     },
     {
-        question: "Hur många mönster finns det inom TKD och varför är det lust det antalet",
+        question: "Hur många mönster finns det inom TKD och varför är det just det antalet",
         answers: [
             {
                 type: "Correct",
@@ -399,11 +399,11 @@ var quizQuestions = [
             },
             {
                 type: "Wrong",
-                content: "AATF har Master Loboda som President, Master Coos som VicePresident och ledamöter bl.a. Mimmi Oskarsson"
+                content: "AATF har Master Jedut som President, Master Coos som VicePresident och ledamöter bl.a. Mimmi Oskarsson"
             },
             {
                 type: "Wrong",
-                content: "AETE har Master Loboda som President, Master Coos som VicePresident och ledamöter bl.a. Mimmi Oskarsson"
+                content: "AETE har Master Lear som President, Master Coos som VicePresident och ledamöter bl.a. Mimmi Oskarsson"
             }
         ]
     },
@@ -667,7 +667,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Correct",
-                content: "2400"
+                content: "3200"
             },
             {
                 type: "Wrong",
